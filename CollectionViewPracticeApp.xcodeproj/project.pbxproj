@@ -13,6 +13,11 @@
 		D33F4621283A41CF000831CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33F461F283A41CF000831CB /* Main.storyboard */; };
 		D33F4623283A41D0000831CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33F4622283A41D0000831CB /* Assets.xcassets */; };
 		D33F4626283A41D0000831CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33F4624283A41D0000831CB /* LaunchScreen.storyboard */; };
+		D34FDB162842C3DB0092E22A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB142842C3DB0092E22A /* CollectionViewCell.swift */; };
+		D34FDB172842C3DB0092E22A /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D34FDB152842C3DB0092E22A /* CollectionViewCell.xib */; };
+		D34FDB192842C6860092E22A /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB182842C6860092E22A /* FoodItem.swift */; };
+		D34FDB1B2842CB230092E22A /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FDB1A2842CB230092E22A /* NextViewController.swift */; };
+		D34FDB1D2842CB390092E22A /* Next.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34FDB1C2842CB390092E22A /* Next.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		D33F4622283A41D0000831CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33F4625283A41D0000831CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33F4627283A41D0000831CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34FDB142842C3DB0092E22A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D34FDB152842C3DB0092E22A /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		D34FDB182842C6860092E22A /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		D34FDB1A2842CB230092E22A /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D34FDB1C2842CB390092E22A /* Next.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Next.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				D33F461B283A41CF000831CB /* SceneDelegate.swift */,
 				D33F461D283A41CF000831CB /* ViewController.swift */,
 				D33F461F283A41CF000831CB /* Main.storyboard */,
+				D34FDB1A2842CB230092E22A /* NextViewController.swift */,
+				D34FDB1C2842CB390092E22A /* Next.storyboard */,
+				D34FDB142842C3DB0092E22A /* CollectionViewCell.swift */,
+				D34FDB182842C6860092E22A /* FoodItem.swift */,
+				D34FDB152842C3DB0092E22A /* CollectionViewCell.xib */,
 				D33F4622283A41D0000831CB /* Assets.xcassets */,
 				D33F4624283A41D0000831CB /* LaunchScreen.storyboard */,
 				D33F4627283A41D0000831CB /* Info.plist */,
@@ -127,6 +142,8 @@
 			files = (
 				D33F4626283A41D0000831CB /* LaunchScreen.storyboard in Resources */,
 				D33F4623283A41D0000831CB /* Assets.xcassets in Resources */,
+				D34FDB172842C3DB0092E22A /* CollectionViewCell.xib in Resources */,
+				D34FDB1D2842CB390092E22A /* Next.storyboard in Resources */,
 				D33F4621283A41CF000831CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33F461E283A41CF000831CB /* ViewController.swift in Sources */,
+				D34FDB1B2842CB230092E22A /* NextViewController.swift in Sources */,
 				D33F461A283A41CF000831CB /* AppDelegate.swift in Sources */,
+				D34FDB162842C3DB0092E22A /* CollectionViewCell.swift in Sources */,
 				D33F461C283A41CF000831CB /* SceneDelegate.swift in Sources */,
+				D34FDB192842C6860092E22A /* FoodItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
